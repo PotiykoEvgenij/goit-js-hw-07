@@ -13,7 +13,7 @@ function createGalleryMarkup(galleryItems) {
               </a>
             </li>`;
   }).join('');
-}
+};
 
 galleryList.insertAdjacentHTML('beforeend', createGalleryMarkup(galleryItems));
 
